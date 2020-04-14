@@ -1,1 +1,1 @@
-window.alert("This is the alert message.");
+//window.alert("This is the alert message.");
