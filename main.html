@@ -73,14 +73,26 @@
         y: 135,
         width: 20,
         height: 50,
-        fill: 'brown'
+        fill: 'red'
+      });
+
+      var circle = new Konva.Circle({
+        x: 60   // x position of the center
+        y: 50  // y position of the center
+        radius: 20,             // circle radius
+        fill: 'red',            // color to fill the area
+        stroke: 'yellow',        // color to draw the line
+        strokeWidth: 4          // line width
       });
 
       layer.add(triangle_1);
       layer.add(triangle_2);
       layer.add(triangle_3);
       layer.add(rect);
+      layer.add(circle);
       stage.add(layer);
+
+
       layer.draw();
     </script>
   </div>
