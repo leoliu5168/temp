@@ -31,10 +31,7 @@
   <h2>Konva's Circle</h2>
   <script src="https://unpkg.com/konva@3.4.1/konva.min.js"></script>
   <div id="container">
-    <!--<script src="myscripts.js"></script>-->
     <script>
-      // first we need to create a stage
-      //Draw a tree
       var stage = new Konva.Stage({
         container: 'container',
         width: 500,
@@ -44,7 +41,7 @@
       var layer = new Konva.Layer();
 
       var triangle_1 = new Konva.RegularPolygon({
-        x: 50,
+        x: 200,
         y: 50,
         sides: 3,
         radius: 50,
@@ -52,7 +49,7 @@
       });
 
       var triangle_2 = new Konva.RegularPolygon({
-        x: 50,
+        x: 200,
         y: 80,
         sides: 3,
         radius: 50,
@@ -60,7 +57,7 @@
       });
 
       var triangle_3 = new Konva.RegularPolygon({
-        x: 50,
+        x: 200,
         y: 110,
         sides: 3,
         radius: 50,
@@ -69,7 +66,7 @@
 
 
       var rect = new Konva.Rect({
-        x: 40,
+        x: 200,
         y: 135,
         width: 20,
         height: 50,
@@ -77,11 +74,11 @@
       });
 
       var circle = new Konva.Circle({
-        x: 60 ,  // x position of the center
+        x: 200 ,  // x position of the center
         y: 50 , // y position of the center
         radius: 20,             // circle radius
         fill: 'red',            // color to fill the area
-        stroke: 'yellow',        // color to draw the line
+        stroke: 'black',        // color to draw the line
         strokeWidth: 4          // line width
       });
 
